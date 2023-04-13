@@ -5,14 +5,10 @@
 [Support Me](#support-me)
 [Discord](#join-the-community)<br>
 
-
-
-
 ------------
 
 # 6ix
-6ix is a sleek set of roblox scripts created for people to use for free, you can buy premium for more
-features but its not necessary
+6ix offers custom made scripts that have many features for free that you wont find on other scripts
 ------
 
 ## Features
