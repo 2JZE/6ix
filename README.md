@@ -24,5 +24,5 @@ $$ /  $$ |$$ | $$  $$<
   [-] [carti6ix/2JZE]
 
 [*] Developer
-  [-] [grim]
+  [-] [grim/GlobalDoesLUA]
 
