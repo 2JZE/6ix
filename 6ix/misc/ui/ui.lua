@@ -1,3 +1,4 @@
+
 -- / Locals
 local Workspace = game:GetService("Workspace")
 local Player = game:GetService("Players").LocalPlayer
@@ -72,8 +73,8 @@ local drag = function(obj, latency)
 end
 
 local library = {
-    version = "1.2.5",
-    title = title or "6ix " .. tostring(math.random(1,366)),
+    version = "2.0.2",
+    title = title or "xsx " .. tostring(math.random(1,366)),
     fps = 0,
     rank = "private"
 }
@@ -195,7 +196,7 @@ function library:Watermark(text)
         end
     end
 
-    tetx = text or "6ix v2"
+    tetx = text or "xsx v2"
 
     local watermark = Instance.new("ScreenGui")
     local watermarkPadding = Instance.new("UIPadding")
@@ -319,7 +320,7 @@ function library:Watermark(text)
 
     local WatermarkFunctions = {}
     function WatermarkFunctions:AddWatermark(text)
-        tetx = text or "6ix v2"
+        tetx = text or "xsx v2"
 
         local edge = Instance.new("Frame")
         local edgeCorner = Instance.new("UICorner")
@@ -745,8 +746,7 @@ function library:Introduction()
     
     xsxLogo.Name = "xsxLogo"
     xsxLogo.Parent = background
-    
-	Logo.AnchorPoint = Vector2.new(0.5, 0.5)
+    xsxLogo.AnchorPoint = Vector2.new(0.5, 0.5)
     xsxLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     xsxLogo.BackgroundTransparency = 1.000
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
